@@ -4,7 +4,7 @@
 usuarios = {"aluno": "123"} 
 pedidos_realizados = []
 
-# Cardápio Realista de Açaiteria (2026)
+# Cardápio de Açaiteria (DG)
 cardapio = [
     {"id": 1, "item": "Copo de Açaí 300ml (3 acompanhamentos)", "preco": 18.00},
     {"id": 2, "item": "Copo de Açaí 500ml (5 acompanhamentos)", "preco": 26.00},
@@ -14,7 +14,7 @@ cardapio = [
 ]
 
 print("========================================")
-print("     🍧 BEM-VINDO À AÇAITERIA DG 🍧     ")
+print("      BEM-VINDO À AÇAITERIA DG      ")
 print("========================================")
 
 while True:
@@ -90,7 +90,6 @@ while True:
                                 "cliente": user_login,
                                 "itens": carrinho,
                                 "valor": total_conta,
-                                "distancia": distancia,
                                 "tempo": tempo_estimado,
                                 "status": "Preparando seu Açaí..."
                             }
@@ -107,8 +106,6 @@ while True:
                             tem_pedido = True
                             print("Seu pedido está a caminho, previsão de 30 a 45 minutos.")
                             print(f"Status: {p['status']}")
-                            print(f"O entregador está a {p['distancia']} km de você.")
-                            print(f"Tempo de espera: {p['tempo']} minutos.")
                             print(f"Itens do pedido: {p['itens']}")
                     
                     if not tem_pedido:
