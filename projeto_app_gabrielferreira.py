@@ -1,16 +1,19 @@
 #SISTEMA DE AÇAITERIA DG
 
 
-usuarios = {"aluno": "123"} 
+usuarios = {"cliente": "123"} 
 pedidos_realizados = []
 
 # Cardápio de Açaiteria (DG)
 cardapio = [
-    {"id": 1, "item": "Copo de Açaí 300ml (3 acompanhamentos)", "preco": 18.00},
-    {"id": 2, "item": "Copo de Açaí 500ml (5 acompanhamentos)", "preco": 26.00},
+    {"id": 1, "item": "Copo de Açaí 300ml (2 acompanhamentos)", "preco": 18.00},
+    {"id": 2, "item": "Copo de Açaí 500ml (3 acompanhamentos)", "preco": 26.00},
     {"id": 3, "item": "Barca de Açaí 1L (Completa)", "preco": 45.00},
     {"id": 4, "item": "Adicional de Nutella", "preco": 5.50},
-    {"id": 5, "item": "Suco de Laranja 500ml", "preco": 10.00}
+    {"id": 5, "item": "Suco de Laranja 500ml", "preco": 10.00},
+    {"id": 6, "item": "Adicional de morango", "preco": 4.00},
+    {"id": 7, "item": "Adicional de granola", "preco": 3.50},
+    {"id": 8, "item": "Adicional de leite condensado", "preco": 4.50}
 ]
 
 print("========================================")
@@ -114,5 +117,7 @@ while True:
         break
     else:
         print("Opção inválida, tente novamente.")
+
+  
 
   
