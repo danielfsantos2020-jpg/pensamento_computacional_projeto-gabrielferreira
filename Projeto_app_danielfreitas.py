@@ -113,7 +113,7 @@ while True:
             print("❌ Usuário ou senha incorretos!")
 
     elif opcao == "3":
-        print("Finalizando o programa da Açaiteria. Até mais!")
+        print("Finalizando o app da Açaiteria. Até mais!")
         break
     else:
         print("Opção inválida, tente novamente.")
